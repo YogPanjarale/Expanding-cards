@@ -1,16 +1,43 @@
 .container{
-    height: 100vh;
-    width: 70vw;
+    height: 70vh;
+    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
     /* border: 2px solid black; */
 }
 
+
+.outer{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer button{
+    margin: 40px;
+    padding: 10px;
+    line-height: 20px;
+    background-color: #7d7c7c66;
+    border-radius: 10px;
+    color: black;
+    transition: all 600ms ease-out;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+.outer button:hover{
+    /* background-color: rgb(187, 171, 147); */
+    padding: 10px 20px;
+    cursor: pointer;
+        
+}
+
 .panel{
     border: 2px solid black;
-    height: 70%;
-    width: 20%;
+    height: 100%;
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,8 +47,7 @@
     cursor: pointer;
     flex: 0.5;
     border: 2px solid black;
-    transition: flex 1s ease-in-out;
-    /* transition: transform 200ms ease-in; */
+    transition: flex 700ms ease-out;
 }
 
 .panel h3{
